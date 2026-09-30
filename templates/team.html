@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Developer — Cafe Occupancy Monitor</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <link rel="stylesheet" href="/static/css/pages.css" />
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+
+        <div class="header-left">
+            <div class="logo-icon">☕</div>
+
+            <div>
+                <h1 class="cafe-name">Cafe Occupancy Monitor</h1>
+                <p class="cafe-subtitle">AI-Powered Real-Time Detection</p>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <a href="/" class="nav-link">🏠 Dashboard</a>
+            <a href="/about" class="nav-link">ℹ️ About</a>
+            <a href="/team" class="nav-link active">👨‍💻 Developer</a>
+            <a href="/future-scope" class="nav-link">🔭 Future Scope</a>
+            <a href="/future-implementations" class="nav-link">🚀 Future Implementations</a>
+            <a href="/contact" class="nav-link">📬 Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- HERO -->
+    <section class="page-hero developer-hero">
+
+        <div class="hero-badge">About the Developer</div>
+
+        <h2 class="hero-title">
+            Built with Code,
+            <br />
+            <span class="gradient-text">Computer Vision & AI</span>
+        </h2>
+
+        <p class="hero-sub">
+            An individual project focused on using computer vision and real-time
+            video processing to monitor cafe occupancy.
+        </p>
+
+    </section>
+
+
+    <!-- MAIN CONTENT -->
+    <div class="page-container developer-container">
+
+        <!-- DEVELOPER PROFILE -->
+        <section class="developer-profile glass-card">
+
+            <div class="developer-avatar">
+                <span>IV</span>
+            </div>
+
+            <div class="developer-details">
+
+                <div class="developer-heading">
+                    <div>
+                        <h3>I S V Vignesh</h3>
+                        <p class="developer-role">
+                            Computer Science Student · Project Developer
+                        </p>
+                    </div>
+
+                    <span class="project-status">
+                        ● Project Developer
+                    </span>
+                </div>
+
+                <p class="developer-description">
+                    I developed this project to explore how computer vision can be
+                    applied to real-time occupancy monitoring. The system processes
+                    live or uploaded video, detects people using YOLOv8, tracks
+                    detected objects, calculates occupancy, and presents the
+                    information through a Flask-based web dashboard.
+                </p>
+
+                <div class="developer-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">YOLOv8</span>
+                    <span class="tag">OpenCV</span>
+                    <span class="tag">DeepSORT</span>
+                    <span class="tag">Flask</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- WHAT I BUILT -->
+        <section>
+
+            <div class="developer-section-heading">
+                <span class="section-number">01</span>
+
+                <div>
+                    <h3>What I Built</h3>
+                    <p>
+                        The main components developed as part of the Cafe Occupancy
+                        Monitor project.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="developer-work-grid">
+
+                <!-- Computer Vision -->
+                <div class="developer-work-card glass-card">
+
+                    <div class="work-icon">👁️</div>
+
+                    <div>
+                        <h4>Computer Vision</h4>
+
+                        <p>
+                            Integrated YOLOv8 for detecting people in video frames
+                            and used OpenCV for video processing and frame handling.
+                        </p>
+
+                        <div class="work-tags">
+                            <span>YOLOv8</span>
+                            <span>OpenCV</span>
+                            <span>Detection</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Tracking -->
+                <div class="developer-work-card glass-card">
+
+                    <div class="work-icon">🎯</div>
+
+                    <div>
+                        <h4>Object Tracking</h4>
+
+                        <p>
+                            Added tracking so detected people can be followed across
+                            consecutive frames instead of treating every detection
+                            as a new person.
+                        </p>
+
+                        <div class="work-tags">
+                            <span>DeepSORT</span>
+                            <span>Tracking</span>
+                            <span>IDs</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Backend -->
+                <div class="developer-work-card glass-card">
+
+                    <div class="work-icon">⚙️</div>
+
+                    <div>
+                        <h4>Backend & APIs</h4>
+
+                        <p>
+                            Built the Flask backend to handle video sources,
+                            occupancy information, settings, uploads, status
+                            information, and dashboard API requests.
+                        </p>
+
+                        <div class="work-tags">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>REST API</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Dashboard -->
+                <div class="developer-work-card glass-card">
+
+                    <div class="work-icon">📊</div>
+
+                    <div>
+                        <h4>Web Dashboard</h4>
+
+                        <p>
+                            Created the dashboard interface to display the processed
+                            video, occupancy information, capacity status, and
+                            historical monitoring data.
+                        </p>
+
+                        <div class="work-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Video Sources -->
+                <div class="developer-work-card glass-card">
+
+                    <div class="work-icon">🎥</div>
+
+                    <div>
+                        <h4>Video Input</h4>
+
+                        <p>
+                            Added support for webcam input, video files, and source
+                            switching so the detection system can work with
+                            different video sources.
+                        </p>
+
+                        <div class="work-tags">
+                            <span>Webcam</span>
+                            <span>Video Files</span>
+                            <span>RTSP</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Occupancy -->
+                <div class="developer-work-card glass-card">
+
+                    <div class="work-icon">👥</div>
+
+                    <div>
+                        <h4>Occupancy Monitoring</h4>
+
+                        <p>
+                            Connected detection and tracking results to occupancy
+                            calculations, capacity settings, status indicators,
+                            and monitoring history.
+                        </p>
+
+                        <div class="work-tags">
+                            <span>Occupancy</span>
+                            <span>Capacity</span>
+                            <span>History</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TECHNOLOGY STACK -->
+        <section class="developer-stack-section">
+
+            <div class="developer-section-heading">
+                <span class="section-number">02</span>
+
+                <div>
+                    <h3>Technology Stack</h3>
+                    <p>
+                        Technologies used throughout the project.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="developer-stack glass-card">
+
+                <div class="stack-item">
+                    <strong>Python</strong>
+                    <span>Core Development</span>
+                </div>
+
+                <div class="stack-divider"></div>
+
+                <div class="stack-item">
+                    <strong>YOLOv8</strong>
+                    <span>Object Detection</span>
+                </div>
+
+                <div class="stack-divider"></div>
+
+                <div class="stack-item">
+                    <strong>DeepSORT</strong>
+                    <span>Object Tracking</span>
+                </div>
+
+                <div class="stack-divider"></div>
+
+                <div class="stack-item">
+                    <strong>OpenCV</strong>
+                    <span>Video Processing</span>
+                </div>
+
+                <div class="stack-divider"></div>
+
+                <div class="stack-item">
+                    <strong>Flask</strong>
+                    <span>Backend</span>
+                </div>
+
+                <div class="stack-divider"></div>
+
+                <div class="stack-item">
+                    <strong>JavaScript</strong>
+                    <span>Dashboard</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECT APPROACH -->
+        <section class="developer-approach-section">
+
+            <div class="developer-section-heading">
+                <span class="section-number">03</span>
+
+                <div>
+                    <h3>Project Approach</h3>
+                    <p>
+                        How the different parts of the system work together.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="approach-card glass-card">
+
+                <div class="approach-step">
+                    <div class="approach-number">1</div>
+
+                    <div>
+                        <h4>Video Input</h4>
+                        <p>
+                            The system receives frames from a webcam, uploaded
+                            video, or configured video source.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="approach-line"></div>
+
+
+                <div class="approach-step">
+                    <div class="approach-number">2</div>
+
+                    <div>
+                        <h4>Person Detection</h4>
+                        <p>
+                            YOLOv8 processes the frames and identifies people
+                            present in the scene.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="approach-line"></div>
+
+
+                <div class="approach-step">
+                    <div class="approach-number">3</div>
+
+                    <div>
+                        <h4>Tracking</h4>
+                        <p>
+                            DeepSORT associates detections across frames and
+                            maintains tracking identities.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="approach-line"></div>
+
+
+                <div class="approach-step">
+                    <div class="approach-number">4</div>
+
+                    <div>
+                        <h4>Occupancy Calculation</h4>
+                        <p>
+                            Tracking results are used to determine the current
+                            number of people and compare it with the configured
+                            capacity.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="approach-line"></div>
+
+
+                <div class="approach-step">
+                    <div class="approach-number">5</div>
+
+                    <div>
+                        <h4>Dashboard</h4>
+                        <p>
+                            The Flask web application exposes the results through
+                            APIs and displays the information in the monitoring
+                            dashboard.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DEVELOPER NOTE -->
+        <section class="developer-note glass-card">
+
+            <div class="note-icon">💡</div>
+
+            <div>
+                <h3>Why I Built This</h3>
+
+                <p>
+                    This project gave me an opportunity to work with computer
+                    vision, real-time video processing, backend development, and
+                    frontend integration in one application. My goal was to build
+                    something practical rather than only experimenting with an
+                    object detection model.
+                </p>
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="page-footer">
+        <p>
+            © 2026 Cafe Occupancy Monitor · Built with YOLOv8 + DeepSORT + Flask
+        </p>
+    </footer>
+
+</body>
+
+</html>
